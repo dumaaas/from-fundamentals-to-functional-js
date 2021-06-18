@@ -1,0 +1,33 @@
+body, h1, p, ul, li, h2, h3, h4, a, div {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 40px;
+
+    h1 {
+        color: darken(gray, 20%);
+    }
+
+    ul {
+        text-align: left ;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+
+        &:visited {
+            color: black;
+        }
+    }
+    
+    p {
+        padding: 10px 0;
+    }
+}
+

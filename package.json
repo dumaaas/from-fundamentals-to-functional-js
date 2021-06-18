@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass src/ -o public/style/ --recursive"
+    "sass": "node-sass src/ -o style/ --recursive"
   },
   "author": "",
   "license": "ISC",

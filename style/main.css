@@ -1,0 +1,29 @@
+body, h1, p, ul, li, h2, h3, h4, a, div {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 40px;
+}
+.container h1 {
+  color: #4d4d4d;
+}
+.container ul {
+  text-align: left;
+}
+.container a {
+  text-decoration: none;
+  color: black;
+}
+.container a:visited {
+  color: black;
+}
+.container p {
+  padding: 10px 0;
+}
+
+/*# sourceMappingURL=main.css.map */

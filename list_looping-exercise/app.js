@@ -65,7 +65,7 @@ var [color1, color2] = [suspects[0].color, suspects[1].color];
 console.log(color1, color2);
 
 // destructured way 2
-var [{color: firstColor}, {color: secondColor}] = suspects;
-console.log(firstColor, secondColor);
+var [{color: firstColor1}, {color: secondColor1}] = suspects;
+console.log(firstColor1, secondColor1);
 
 

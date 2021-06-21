@@ -11,6 +11,9 @@ _.each = function (list, callback) {
 
     } else {
         // loop through object
+        for(var key in list) {
+            callback(list[key], key, list);
+        }
         // call the callback with a list item
 
     }

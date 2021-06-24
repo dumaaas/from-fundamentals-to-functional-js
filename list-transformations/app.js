@@ -2,7 +2,7 @@ function CreateSuspectObject(name) {
     return {
         name: name,
         color: name.split(" ")[1],
-        speak() {log("My name is ${name}");}
+        speak() {console.log(`My name is ${name}`);}
     }
 }
 

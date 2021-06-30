@@ -1,4 +1,4 @@
-// _.curry 
+// _.curry -> Currying is when we create a function that can later be called multiple times with different arguments
 
 const curry = (fn) => {    // function is ab
     return (arg) => {      // 1
@@ -18,7 +18,7 @@ var curriedFinal = curried(1)(2)
 
 console.log(curriedFinal); // => [1, 2]
 
-// _.composer
+// _.composer -> Composing is when we take 2 functions and combine them
 
 const compose = (fn, fn2) => {
     return (arg) => {
